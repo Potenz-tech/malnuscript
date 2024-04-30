@@ -756,6 +756,7 @@ body {
 }
 @media (max-width: 1199.98px) {
   .newsletter .slice-inputs input {
+    max-width: 280px;
     display: block;
     width: 100%;
   }
