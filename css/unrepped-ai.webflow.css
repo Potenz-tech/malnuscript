@@ -757,6 +757,7 @@ body {
 @media (max-width: 1199.98px) {
   .newsletter .slice-inputs input {
     display: block;
+    width: 100%;
   }
 }
 .newsletter .slice-inputs input::placeholder {
