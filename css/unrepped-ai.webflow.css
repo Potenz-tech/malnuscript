@@ -733,7 +733,6 @@ body {
 @media (max-width: 991.98px) {
   .newsletter .slice-inputs {
     grid-template-columns: auto;
-    justify-content: stretch;
   }
 }
 .newsletter .slice-inputs input {
