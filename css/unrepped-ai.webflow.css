@@ -735,6 +735,19 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .newsletter .slice-inputs input::placeholder {
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.200000003);
+  }
+  .newsletter .slice-inputs input {
+    font-size: 20px !important;
+    min-height: 65px !important;
+  }
+  .newsletter .slice-inputs button {
+    font-size: 20px;
+    min-height: 65px !important;
+
+  }
 }
 .newsletter .slice-inputs input {
   border: 1.5px solid rgba(41, 41, 41, .5);
@@ -793,6 +806,7 @@ body {
 @media (max-width: 991.98px) {
   .newsletter .slice-inputs button {
     grid-column-start: auto;
+    font-size: 20px;
   }
 }
 
