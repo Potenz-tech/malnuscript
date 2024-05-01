@@ -842,3 +842,16 @@ body {
 }
 
 /* end newsletter */
+
+.border.radius20px {
+  border-radius: 20px;
+}
+
+.success-message{
+  margin-bottom: 40px;
+  gap: 40px;
+    align-items: center;
+    justify-content: center;
+  margin-top: 200px !important;
+    display: flex !important;
+}
