@@ -735,6 +735,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+  
   .newsletter .slice-inputs input::placeholder {
     font-size: 20px !important;
     color: rgba(255, 255, 255, 0.200000003);
