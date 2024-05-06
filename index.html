@@ -189,7 +189,8 @@
       });
     });
   </script>
-  <script>    const form = document.getElementById("subForm");
+  <script>    
+  const form = document.getElementById("subForm");
 
     // Add an event listener for form submission
     form.addEventListener("submit", function(event) {
@@ -197,7 +198,7 @@
         event.preventDefault();
     
         // Get the value entered in the name input field
-        const nameInput = document.getElementById("fieldName").value;
+        const nameInput = document.getElementById("nameField").value;
     
         // Store the name input value in sessionStorage
         sessionStorage.setItem("nameText", nameInput);
@@ -206,7 +207,8 @@
     
         // Clear the input field if needed
         document.getElementById("fieldName").value = "";
-    });</script>
+    });
+    </script>
   <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
 </body>
 
