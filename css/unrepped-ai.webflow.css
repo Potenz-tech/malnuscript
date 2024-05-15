@@ -615,6 +615,9 @@ body {
   .frame {
     top: -76%;
   }
+  .frame.error {
+    top: 0% !important;
+  }
 
   .heading-wrap {
     padding-top: 0;
@@ -627,7 +630,11 @@ body {
     top: 25%;
     bottom: 0%;
   }
-
+  .gradiant-wrap.mobile {
+    background:transparent;
+    top: 25%;
+    bottom: 0%;
+  }
   .video-frame {
     top: 9%;
   }
